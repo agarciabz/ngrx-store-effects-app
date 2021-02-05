@@ -18,6 +18,7 @@ export function reducer(
   state = initialState,
   action: fromPizzas.PizzasAction
 ): PizzaState {
+
   switch (action.type) {
     case fromPizzas.LOAD_PIZZAS: {
       return {
