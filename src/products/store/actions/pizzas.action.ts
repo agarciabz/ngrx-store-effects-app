@@ -33,7 +33,7 @@ export class CreatePizza implements Action {
 
 export class CreatePizzaFail implements Action {
   readonly type = CREATE_PIZZA_FAIL;
-  constructor(public payload: Pizza) {}
+  constructor(public payload: any) {}
 }
 
 export class CreatePizzaSuccess implements Action {
@@ -53,7 +53,7 @@ export class UpdatePizza implements Action {
 
 export class UpdatePizzaFail implements Action {
   readonly type = UPDATE_PIZZA_FAIL;
-  constructor(public payload: Pizza) {}
+  constructor(public payload: any) {}
 }
 
 export class UpdatePizzaSuccess implements Action {
@@ -73,7 +73,7 @@ export class RemovePizza implements Action {
 
 export class RemovePizzaFail implements Action {
   readonly type = REMOVE_PIZZA_FAIL;
-  constructor(public payload: Pizza) {}
+  constructor(public payload: any) {}
 }
 
 export class RemovePizzaSuccess implements Action {
